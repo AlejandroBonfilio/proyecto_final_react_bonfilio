@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+/* numero de icono carrito de compras */
+
+.cart-count {
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-size: 0.8em;
+  padding: 0.2em 0.4em;
+}
+
+/* numero de icono carrito de compras */
+
+/*navbar*/
+.navbar{
+  margin: 0px 20px ;
+  background-color: rgba(250, 250, 250, 0.758);
+}
+
+.brand-logo{
+  width: 30%;
+}
