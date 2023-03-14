@@ -1,9 +1,3 @@
-//renderizar aca barra de menu
-//crear el menu ecomerce del proyecto
-//categorias --- home - coleccionables - indumentaria - perifericos - juegos
-//usar bootstrap               
-
-
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import Cart from "../CartWidget/CartWidget.js";
