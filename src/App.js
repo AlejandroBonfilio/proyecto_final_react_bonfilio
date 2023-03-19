@@ -27,7 +27,7 @@ function App() {
           <Route path="*" exact element={<Error/>}/>
         </Routes>
       </BrowserRouter>
-      <ItemListContainer greeting="Hola Gamer"/>
+      <ItemListContainer/>
       
    </div>
   
