@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 import Cart from "../CartWidget/CartWidget.js";
 import logo from "../../images/Geek Hunt_free-file (1).png";
@@ -6,16 +7,27 @@ import logo from "../../images/Geek Hunt_free-file (1).png";
 function NavBar(props) {
   return (
     <Navbar className="navbar" expand="lg">
-      <Navbar.Brand href="#">
-      <img src={logo} alt="Logo de la marca" className="brand-logo" />
-        {props.brandName}</Navbar.Brand>
+      <Navbar.Brand>
+        <NavLink exact to="/" className="nav-link">
+          <img src={logo} alt="Logo Geek Hunt" className="brand-logo" />
+          {props.brandName}
+        </NavLink>
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#">Coleccionables</Nav.Link>
-          <Nav.Link href="#">Indumentaria</Nav.Link>
-          <Nav.Link href="#">Periféricos</Nav.Link>
-          <Nav.Link href="#">Juegos</Nav.Link>
+          <NavLink to="/" className="nav-link" activeClassName="active">
+            Inicio
+          </NavLink>
+          <NavLink to="/coleccionables" className="nav-link" activeClassName="active">
+            Coleccionables
+          </NavLink>
+          <NavLink to="/perifericos" className="nav-link" activeClassName="active">
+            Periféricos
+          </NavLink>
+          <NavLink to="/juegos" className="nav-link" activeClassName="active">
+            Juegos
+          </NavLink>
         </Nav>
         <Nav>
           <Cart cartCount={props.cartCount} />
