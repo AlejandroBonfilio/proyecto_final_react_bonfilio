@@ -10,6 +10,8 @@ import Juegos from "./components/Pages/Juegos.js"
 import Perifericos from "./components/Pages/Perifericos.js"
 import Error from "./components/Pages/Error.js"
 
+
+
 function App() {
   
   return (
