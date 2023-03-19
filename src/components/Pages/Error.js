@@ -3,7 +3,7 @@ import React from 'react'
 function Error() {
   return (
     <div>
-      <h1>ACA error</h1>
+      <h1>Error 404</h1>
       
     </div>
   )

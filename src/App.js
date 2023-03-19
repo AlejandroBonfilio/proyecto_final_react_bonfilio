@@ -4,7 +4,7 @@ import { Routes, Route} from "react-router-dom";
 import NavBar from './components/NavBar/NavBar.js';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer.js';
 import './App.css';
-import Inicio from "./components/Pages/Inicio.js"
+import Inicio from "./components/ItemListContainer/ItemListContainer"
 import Coleccionables from "./components/Pages/Coleccionables.js"
 import Juegos from "./components/Pages/Juegos.js"
 import Perifericos from "./components/Pages/Perifericos.js"
@@ -26,8 +26,9 @@ function App() {
           <Route path="/juegos" exact element={<Juegos/>}/>
           <Route path="*" exact element={<Error/>}/>
         </Routes>
+        
       </BrowserRouter>
-      <ItemListContainer/>
+     
       
    </div>
   
