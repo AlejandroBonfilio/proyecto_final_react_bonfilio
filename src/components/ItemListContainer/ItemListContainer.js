@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import products from '../../data/products.json';
+import products from '../Pages/products.json';
 
 function ItemListContainer() {
   const { itemId } = useParams();
@@ -11,9 +11,7 @@ function ItemListContainer() {
     setProduct(selectedProduct);
   }, [itemId]);
 
-  if (!product) {
-    return <div>Loading...</div>;
-  }
+ 
 
   return (
     <div>

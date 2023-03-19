@@ -8,7 +8,7 @@ function NavBar(props) {
   return (
     <Navbar className="navbar" expand="lg">
       <Navbar.Brand>
-        <NavLink exact to="/" className="nav-link">
+        <NavLink to="/" className="nav-link">
           <img src={logo} alt="Logo Geek Hunt" className="brand-logo" />
           {props.brandName}
         </NavLink>
@@ -16,16 +16,16 @@ function NavBar(props) {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <NavLink to="/" className="nav-link" activeClassName="active">
+          <NavLink to="/" className="nav-link">
             Inicio
           </NavLink>
-          <NavLink to="/coleccionables" className="nav-link" activeClassName="active">
+          <NavLink to="/coleccionables" className="nav-link" >
             Coleccionables
           </NavLink>
-          <NavLink to="/perifericos" className="nav-link" activeClassName="active">
+          <NavLink to="/perifericos" className="nav-link" >
             Periféricos
           </NavLink>
-          <NavLink to="/juegos" className="nav-link" activeClassName="active">
+          <NavLink to="/juegos" className="nav-link">
             Juegos
           </NavLink>
         </Nav>

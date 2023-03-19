@@ -31,3 +31,10 @@
   padding: 20px;
 }
 
+.card {
+  border: solid 2px black;
+}
+
+.cards {
+  border: solid 2px black;
+}

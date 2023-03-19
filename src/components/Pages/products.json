@@ -4,7 +4,7 @@
         "id": "1",
         "name": "Figura de colección Iron Man",
         "description": "Figura de colección de Iron Man, edición limitada.",
-        "category": "Coleccionables",
+        "category": "coleccionables",
         "price": 150.00,
         "image": "https://via.placeholder.com/300x300.png?text=Iron+Man"
       },
@@ -12,7 +12,7 @@
         "id": "2",
         "name": "Camiseta Zelda",
         "description": "Camiseta de The Legend of Zelda, 100% algodón.",
-        "category": "Juegos",
+        "category": "juegos",
         "price": 25.99,
         "image": "https://via.placeholder.com/300x300.png?text=Zelda"
       },
@@ -20,7 +20,7 @@
         "id": "3",
         "name": "Teclado Gamer Razer",
         "description": "Teclado mecánico gamer de la marca Razer.",
-        "category": "Perifericos",
+        "category": "perifericos",
         "price": 120.00,
         "image": "https://via.placeholder.com/300x300.png?text=Razer+Teclado"
       },
@@ -28,7 +28,7 @@
         "id": "4",
         "name": "Figura de colección Spider-Man",
         "description": "Figura de colección de Spider-Man, edición limitada.",
-        "category": "Coleccionables",
+        "category": "coleccionables",
         "price": 180.00,
         "image": "https://via.placeholder.com/300x300.png?text=Spider-Man"
       },
@@ -36,7 +36,7 @@
         "id": "5",
         "name": "Juego de mesa Catan",
         "description": "Juego de mesa de estrategia Catan, para toda la familia.",
-        "category": "Juegos",
+        "category": "juegos",
         "price": 45.00,
         "image": "https://via.placeholder.com/300x300.png?text=Catan"
       },
@@ -44,7 +44,7 @@
         "id": "6",
         "name": "Mouse inalámbrico Logitech",
         "description": "Mouse inalámbrico de la marca Logitech, con 5 botones programables.",
-        "category": "Perifericos",
+        "category": "perifericos",
         "price": 40.00,
         "image": "https://via.placeholder.com/300x300.png?text=Logitech+Mouse"
       }
