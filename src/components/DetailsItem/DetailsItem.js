@@ -1,7 +1,7 @@
-import Image from "./Image";
-import Description from "./Description";
+import Image from "../Image/Image";
+import Description from "../Description/Description";
 import "../../styles/detailsItem.css";
-import ButtonDetalles from "./Buttondetalles";
+import ButtonDetalles from "../Buttondetalles/Buttondetalles";
 import fetchSimultion from "../../utils/fetchSimulation";
 import productos from "../../utils/products";
 import { useParams } from "react-router-dom";

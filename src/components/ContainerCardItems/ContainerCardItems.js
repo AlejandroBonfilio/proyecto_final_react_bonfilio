@@ -2,7 +2,7 @@
 import fetchSimultion from "../../utils/fetchSimulation";
 import productos from "../../utils/products";
 import { useState, useEffect } from "react";
-import CardItem from "./CardItem";
+import CardItem from "../CardItem/CardItem";
 import "../../styles/containerCardsItems.css"
 import { useParams } from "react-router-dom";
 

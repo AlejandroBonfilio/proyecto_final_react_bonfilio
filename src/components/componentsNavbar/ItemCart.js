@@ -1,7 +1,7 @@
 import "../../styles/itemCart.css"
 import deleteWhite from "../../img/deleteWhite.svg"
 import { useContext } from "react"
-import { listCartContext } from "../components item/providerContextoListCart"
+import { listCartContext } from "../providerContextoListCart/providerContextoListCart"
 
 
 const ItemCart = ( {id, title, image, price, quantity } ) => {

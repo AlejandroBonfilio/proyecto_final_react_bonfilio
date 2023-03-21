@@ -4,7 +4,7 @@ import ItemCart from "./ItemCart";
 import clear from "../../img/clear.svg";
 import { useContext } from "react";
 import { controllerShowCart } from "./ContextCart";
-import { listCartContext } from "../components item/providerContextoListCart";
+import { listCartContext } from "../providerContextoListCart/providerContextoListCart";
 
 const ContainerCart = () => {
 
