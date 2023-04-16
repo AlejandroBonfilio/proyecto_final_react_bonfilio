@@ -1,3 +1,17 @@
+Readme para entrega proyecto final Coderhouse React Alejandro Bonfilio
+
+Objetivo de la cursada: crear una tienda ecommerce en React
+
+Nombre de la tienda Geek Hunt, elegí el nombre porque suena parecido a Github :D 
+
+La pagina tiene 5 secciones navegables, al inicio se ven todos los productos y luego tenemos 4 secciones con los productos definidos por categorias (estos productos se encuentran en una coleccion de firebase), a la vez, al clickear "ver detalles" en un producto en particular, nos lleva a una vista mas en detalle del producto con una descripcion. Todo esto logrado a traves de los distintos componentes que se nos pedia utilizar.
+Si los productos tardan en cargar, se observa el uso de React-loading-skeleton como animacion de carga.
+En la pagina tenemos un carrito de compras, el cual podemos modificar, agregando o quitando productos.
+Una vez finalizada la selecion de productos, podemos finalizar la compra, yendo al carrito, apretar el boton de "ir finalizar compra" y completando tus datos en el formulario, al finalizar compra, se disparan 2 acciones, una es la de generar un ID y guardar tu compra en Firebase(se pueden ver desde alli todas las compras almacenadas) y la otra accion es la de mostrarte (con sweetalert) una alerta de la compra con su ID.
+
+Dejo un agradecimiento especial a chatgpt por quedarse despierto conmigo ayudandome en este proyecto de React. :D
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
